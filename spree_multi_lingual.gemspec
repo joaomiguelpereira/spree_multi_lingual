@@ -16,11 +16,10 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-
-  s.add_dependency 'spree_core', '~> 2.1.1'
-  s.add_dependency 'spree_backend', '~> 2.1.1'
-  s.add_dependency 'spree_frontend', '~> 2.1.1'
-  s.add_dependency 'spree_api', '~> 2.1.1'
+  s.add_dependency 'spree_core', '~> 2.0'
+  s.add_dependency 'spree_backend', '~> 2.0'
+  s.add_dependency 'spree_frontend', '~> 2.0'
+  s.add_dependency 'spree_api', '~> 2.0'
   s.add_dependency 'i18n'
   s.add_dependency 'globalize3', '~> 0.3.0'
   s.add_dependency 'easy_globalize3_accessors'
@@ -30,7 +29,7 @@ Gem::Specification.new do |s|
   s.add_dependency 'coffee-rails'
 
   s.add_development_dependency 'capybara', '2.1.0'
-  s.add_development_dependency 'spree_api', '~> 2.1.1'
+  s.add_development_dependency 'spree_api', '~> 2.0'
   s.add_development_dependency 'factory_girl_rails', '~> 4.2'
   s.add_development_dependency 'ffaker'
   s.add_development_dependency 'rspec-rails',  '~> 2.9.0'
